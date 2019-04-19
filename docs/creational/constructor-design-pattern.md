@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 ## Constructor Design Pattern
 
 - In this design pattern we can create a Object from the function 
