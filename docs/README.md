@@ -12,8 +12,11 @@ Hello Javascriptors I am going to make some sort of docs related to the design p
 - [Singleton Design Pattern](creational/singleton-design-pattern.md)
 
 ## Structural
-- Decorator Design Pattern
-- Facade Design Pattern
+
+Concerned with how objects are made up and simplify relationships between objects.
+
+- [Decorator Design Pattern](structural/decorator-design-pattern.md)
+- [Facade Design Pattern](structural/facade-design-pattern.md)
 - FlyWeight Design Pattern
 
 ## Behavioral
