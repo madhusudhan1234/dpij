@@ -17,10 +17,15 @@ Concerned with how objects are made up and simplify relationships between object
 
 - [Decorator Design Pattern](structural/decorator-design-pattern.md)
 - [Facade Design Pattern](structural/facade-design-pattern.md)
-- FlyWeight Design Pattern
+- [FlyWeight Design Pattern](structural/flyweight-design-pattern.md)
 
 ## Behavioral
-- Command Design Pattern
-- Mediator Design Pattern
-- Observer Design Pattern
+
+Concerned with the assignment of the responsibilities between objects and how they communicate.
+Deals withthe responsibilities of objects, Help objects cooprate Assigns clear hirearchy, Can encapsulate requests
+
+
+- [Command Design Pattern](behavioral/command-design-pattern.md)
+- [Mediator Design Pattern](behavioral/mediator-design-pattern.md)
+- [Observer Design Pattern](behavioral/observer-design-pattern.md)
 
