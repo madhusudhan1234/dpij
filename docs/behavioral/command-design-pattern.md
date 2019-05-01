@@ -23,10 +23,10 @@ var repo = {
     console.log('Saving' + task.name + ' to the db');
   },
   replay: function () {
-    for (var i = 0; i < repo.commmands.length; i++) {
+    for (var i = 0; i < repo.commands.length; i++) {
       var command = repo.commands[i];
 
-      repo.execute(command.name, command.obj);
+      repo.executeNoLog(command.name, command.obj);
     }
   }
 }
@@ -79,5 +79,9 @@ repo.execute('save', {
 })
 
 console.log(repo.tasks);
+repo.tasks = {};
+console.log(repo.tasks);
 
+repo.replay();
+console.log(repo.tasks);
 ```
